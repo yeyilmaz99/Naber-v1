@@ -74,15 +74,14 @@
               }
             ],
             "scripts": [
-              "src/assets/js/lib/jquery-3.4.1.min.js",
-              "src/assets/js/lib/popper.min.js",
-              "src/assets/js/lib/bootstrap.min.js",
-              "src/assets/js/plugins/jquery-circle-progress/circle-progress.min.js",
-              "src/assets/js/plugins/jquery-countdown/jquery.countdown.min.js",
-              "src/assets/js/plugins/owl-carousel/owl.carousel.min.js",
-              "src/assets/js/base.js",
-              "src/service-worker.js"
-
+              "./src/service-worker.js",
+              "./src/assets/js/lib/jquery-3.4.1.min.js",
+              "./src/assets/js/lib/popper.min.js",
+              "./src/assets/js/lib/bootstrap.min.js",
+              "./src/assets/js/plugins/jquery-circle-progress/circle-progress.min.js",
+              "./src/assets/js/plugins/jquery-countdown/jquery.countdown.min.js",
+              "./src/assets/js/plugins/owl-carousel/owl.carousel.min.js",
+              "./src/assets/js/base.js"
             ]
           },
           "configurations": {
