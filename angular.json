@@ -34,11 +34,10 @@
               }
             ],
             "styles": [
-              "src/styles.css",
-              "src/assets/css/style.css",
-              "src/assets/css/inc/bootstrap/bootstrap.min.css",
               "src/assets/css/inc/owl-carousel/owl.carousel.min.css",
               "src/assets/css/inc/owl-carousel/owl.theme.default.css",
+              "src/assets/css/inc/bootstrap/bootstrap.min.css",
+              "src/styles.css",
               {
                 "input": "node_modules/@ionic/angular/css/core.css"
               },
