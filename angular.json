@@ -31,7 +31,8 @@
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
-              }
+              },
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/assets/css/inc/owl-carousel/owl.carousel.min.css",
@@ -81,7 +82,9 @@
               "./src/assets/js/plugins/jquery-countdown/jquery.countdown.min.js",
               "./src/assets/js/plugins/owl-carousel/owl.carousel.min.js",
               "./src/assets/js/base.js"
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -148,7 +151,8 @@
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
-              }
+              },
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.css"
