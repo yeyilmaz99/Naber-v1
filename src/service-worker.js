@@ -1,7 +1,11 @@
+
 /////////////////////////////////////////////////////////////////////////////
 // You can find dozens of practical, detailed, and working examples of 
 // service worker usage on https://github.com/mozilla/serviceworker-cookbook
 /////////////////////////////////////////////////////////////////////////////
+
+
+
 
 // Cache name
 var CACHE_NAME = 'cache-version-1';
@@ -20,8 +24,10 @@ var REQUIRED_FILES = [
   './assets/css/inc/owl-carousel/owl.carousel.min.css',
   './assets/css/inc/owl-carousel/owl.theme.default.css',
   './assets/css/inc/bootstrap/bootstrap.min.css',
-  './assets/css/style.css'
+  './assets/css/style.css',
+  './ngsw-worker.js'
 ];
+// importScripts('ngsw-worker.js');
 
 self.addEventListener('install', function(event) {
   // Perform install step:  loading each required file into cache
@@ -57,3 +63,4 @@ self.addEventListener('activate', function(event) {
   // Calling claim() to force a "controllerchange" event on navigator.serviceWorker
   event.waitUntil(self.clients.claim());
 });
+
